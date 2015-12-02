@@ -1,0 +1,17 @@
+.root {
+	 -fx-background-color: rgba(255,230,230,1);
+	 -fx-color: #000000;
+}
+
+.button{
+	-fx-background-color:
+        linear-gradient(#fff035, #ffa900),
+        radial-gradient(center 50% -40%, radius 200%, #eeb836 45%, #c88000 50%);
+    -fx-background-radius: 6, 5;
+    -fx-background-insets: 0, 1;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: #395306;	
+    
+    -fx-background-position: center center;
+	-fx-background-repeat: stretch;
+}
